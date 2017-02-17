@@ -94,6 +94,7 @@ module Qiniu
             # 覆盖语义，文件已存在则直接覆盖
             @scope = "#{bucket}:#{key}"
           end
+
         end # scope!
 
         def expires_in!(seconds)
